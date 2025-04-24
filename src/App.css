@@ -1,0 +1,15 @@
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+    .user-card {
+    background-color:rgb(242 236 245 / 73%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;
+    min-width: 200px;   
+}
+}
+

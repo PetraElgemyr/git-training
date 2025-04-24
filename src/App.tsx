@@ -20,7 +20,7 @@ function App() {
   ]);
 
   return (
-    <div>
+    <div className="users-container">
       {users.map((user) => (
         <UserCard key={user.id} user={user}></UserCard>
       ))}
