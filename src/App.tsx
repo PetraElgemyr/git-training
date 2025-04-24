@@ -6,7 +6,13 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return <div>hej cissi</div>;
+  return (
+    <>
+      <p>hej petra</p>
+      <div>hej cissi</div>
+      <p>hej arvid</p>
+    </>
+  );
 }
 
 export default App;
