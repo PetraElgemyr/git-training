@@ -3,7 +3,7 @@ import "./App.css";
 import { IUser } from "./interfaces/IUser";
 import UserCard from "./components/UserCard";
 
-function App() {
+function AppFunc() {
   const [users, setUsers] = useState<IUser[]>([
     {
       id: 1,
